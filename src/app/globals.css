@@ -169,6 +169,10 @@ nav a:hover {
   }
 
   /* Mobile navigation - stacked layout */
+  nav {
+    background-color: #f1f3f5;
+  }
+
   nav .container {
     flex-direction: column;
     align-items: center;
