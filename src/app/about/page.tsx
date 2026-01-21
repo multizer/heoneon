@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function AboutPage() {
   return (
     <>
@@ -102,6 +104,14 @@ export default function AboutPage() {
             <p>
               The project remains open and may be revised whenever revision is warranted.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

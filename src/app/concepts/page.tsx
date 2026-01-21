@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function ConceptsPage() {
   return (
     <>
@@ -110,6 +112,14 @@ export default function ConceptsPage() {
             <p>
               External phenomena and examples, if used, are intended to appear only after these conceptual reference points have been established.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

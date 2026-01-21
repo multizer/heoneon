@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function ProjectsPage() {
   return (
     <>
@@ -104,6 +106,14 @@ export default function ProjectsPage() {
             <p>
               All projects listed here are ongoing. They are not intended to present finalized positions, but to record the research directions that are currently being maintained. As the work develops, some projects may be expanded, consolidated, or set aside.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

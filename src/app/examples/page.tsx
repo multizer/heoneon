@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function ExamplesPage() {
   return (
     <>
@@ -88,6 +90,14 @@ export default function ExamplesPage() {
             <p>
               Each example is used to probe how far the project's conceptual structure can be applied, and where it may break down. No single phenomenon is treated as sufficient to justify a conclusion on its own.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

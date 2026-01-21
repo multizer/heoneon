@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function Home() {
   return (
     <>
@@ -146,6 +148,14 @@ export default function Home() {
             <p>
               Progress will continue deliberately, prioritizing conceptual coherence over premature closure.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

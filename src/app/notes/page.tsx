@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function NotesPage() {
   return (
     <>
@@ -85,6 +87,14 @@ export default function NotesPage() {
             <p>
               Everything on this page is an active record of ongoing thinking. The sentences here are not intended to explain or persuade. They exist to show that the inquiry remains in motion and continues to develop.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>

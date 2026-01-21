@@ -1,3 +1,5 @@
+import Comments from '@/components/Comments';
+
 export default function SupportPage() {
   return (
     <>
@@ -88,6 +90,14 @@ export default function SupportPage() {
             <p>
               If this page helps clarify the conditions under which the research is being carried out, it has served its role.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments">
+        <div className="container">
+          <div className="content">
+            <Comments />
           </div>
         </div>
       </section>
