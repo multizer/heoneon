@@ -152,6 +152,17 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="external-discussion">
+        <div className="container">
+          <div className="content">
+            <h2>External Discussion</h2>
+            <p>
+              This project has been discussed on Reddit: <a href="https://www.reddit.com/r/HypotheticalPhysics/comments/1p36fmm/what_if_spacetime_is_an_emergent_structure_made/" target="_blank" rel="noopener noreferrer">r/HypotheticalPhysics thread</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="comments">
         <div className="container">
           <div className="content">
