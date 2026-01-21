@@ -1,0 +1,121 @@
+export default function ExamplesPage() {
+  return (
+    <>
+      <section id="overview">
+        <div className="container">
+          <div className="content">
+            <h1>Examples</h1>
+            <p>
+              이 페이지는 본 프로젝트에서 다루는 예시들의 성격과 사용 목적을 명확히 하기 위해 존재한다.
+              여기서의 예시들은 이론을 증명하거나 주장을 강화하기 위한 근거가 아니다.
+              각 예시는 특정 현상이 이 프로젝트의 질문 구조 안에서
+              어떻게 다시 해석될 수 있는지를 살펴보기 위한 참고 지점으로 사용된다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="double-slit">
+        <div className="container">
+          <div className="content">
+            <h2>Double-Slit Experiment</h2>
+            <p>
+              이중슬릿 실험은 이 프로젝트에서
+              파동이나 입자의 실재를 결정하기 위한 실험으로 다뤄지지 않는다.
+            </p>
+            <p>
+              대신, 관측 이전과 이후의 결과 차이가
+              물리적 붕괴가 아니라
+              가능한 상태들 중 하나가 선택되는 과정으로
+              이해될 수 있는지를 검토하는 예시로 사용된다.
+            </p>
+            <p>
+              이 예시는 관측, 결정, 결과라는 개념을
+              구조와 선택의 관점에서 재검토하기 위한 출발점이다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gravitational-bending">
+        <div className="container">
+          <div className="content">
+            <h2>Gravitational Bending of Light</h2>
+            <p>
+              중력에 의해 빛이 휘는 현상은
+              힘이 직접적으로 작용한 결과로만 해석되지 않는다.
+            </p>
+            <p>
+              이 프로젝트에서는
+              공간의 구조 자체가 빛의 경로를 결정할 수 있는지,
+              그리고 물리적 경로가
+              구조적 조건의 결과로 나타날 가능성을
+              검토하는 예시로 다뤄진다.
+            </p>
+            <p>
+              이 예시는 공간이 단순한 배경이 아니라
+              구조를 가진다는 가정을 점검하는 데 사용된다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="non-propulsive-motion">
+        <div className="container">
+          <div className="content">
+            <h2>Non-Propulsive Motion Reports</h2>
+            <p>
+              일부 보고된 비추진 이동 사례들은
+              추진력이나 반작용이 관측되지 않는다는 점에서
+              기존 이동 개념에 질문을 던진다.
+            </p>
+            <p>
+              이 프로젝트에서는 이러한 사례들을
+              사실 주장이나 결론의 근거로 사용하지 않는다.
+              대신, 이동이 반드시 힘과 연속적 변위로만
+              설명되어야 하는지에 대한
+              개념적 질문을 유도하는 참고 예시로만 다룬다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ball-lightning">
+        <div className="container">
+          <div className="content">
+            <h2>Ball Lightning</h2>
+            <p>
+              구형번개는 드물고 잘 설명되지 않는 현상으로 알려져 있다.
+              이 프로젝트에서는 이를 특정 이론에 귀속시키기보다는,
+              국소적으로 구조가 드러난 사례일 가능성을
+              탐색적으로 검토하는 예시로 사용한다.
+            </p>
+            <p>
+              이 예시는 공간 구조가
+              일시적으로 관측 가능한 방식으로 나타날 수 있는지에 대한
+              질문을 제기하는 데 목적이 있다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="notes">
+        <div className="container">
+          <div className="content">
+            <h2>Notes on Examples</h2>
+            <p>
+              이 페이지에 포함된 모든 예시들은
+              설명 대상이 아니라 질문을 위한 도구이다.
+            </p>
+            <p>
+              각 예시는 프로젝트의 개념 구조가
+              어디까지 적용 가능한지를 시험하기 위한 것이며,
+              어떠한 현상도 단독으로
+              결론을 정당화하는 역할을 하지 않는다.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

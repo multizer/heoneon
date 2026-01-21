@@ -1,0 +1,132 @@
+export default function ProjectsPage() {
+  return (
+    <>
+      <section id="overview">
+        <div className="container">
+          <div className="content">
+            <h1>Projects</h1>
+            <p>
+              이 페이지는 현재 진행 중인 주요 연구 트랙들을 정리한 것이다.
+              각 프로젝트는 완성된 이론이나 결과물이 아니라, 하나의 독립적인 질문 묶음이자 연구 방향을 의미한다.
+              모든 프로젝트는 열려 있으며, 연구가 진행됨에 따라 확장되거나 통합되거나 방향이 조정될 수 있다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-01">
+        <div className="container">
+          <div className="content">
+            <h2>Project 01 — Informational Structure of Space</h2>
+            <p>
+              <strong>Status:</strong> 개념 연구 · 질문 정리 단계
+            </p>
+            <p>
+              이 프로젝트는 공간을 비어 있는 배경이 아니라, 정보로 채워진 구조로 보는 관점에 초점을 둔다.
+              핵심 질문은 공간을 구성하는 정보의 구조가 공간 자체의 성질을 결정할 수 있는가에 있다.
+            </p>
+            <p>
+              이 단계에서의 목적은 모델이나 이론을 정식화하는 것이 아니라,
+              공간을 정보적 구조로 다루기 위해 어떤 전제들이 필요한지,
+              그리고 그러한 관점이 개념적으로 일관된지를 검토하는 데 있다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-02">
+        <div className="container">
+          <div className="content">
+            <h2>Project 02 — Motion as Structural Reconfiguration</h2>
+            <p>
+              <strong>Status:</strong> 초기 개념 탐구 단계
+            </p>
+            <p>
+              이 프로젝트는 이동(motion)의 본질을 다룬다.
+              이동을 힘에 의해 발생하는 연속적인 위치 변화로 전제하는 대신,
+              공간 자체의 구조가 재배열되거나 선택되는 과정으로 이해할 수 있는지를 탐구한다.
+            </p>
+            <p>
+              여기서는 위치 변화가 반드시 에너지 전달을 통해서만 설명되어야 하는지,
+              아니면 공간이 정보적 구조를 가진다면 다른 설명 가능성이 열리는지를 개념적으로 검토한다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-03">
+        <div className="container">
+          <div className="content">
+            <h2>Project 03 — Observation, Selection, and Physical Outcomes</h2>
+            <p>
+              <strong>Status:</strong> 개념 분석 단계
+            </p>
+            <p>
+              이 프로젝트는 관측과 물리적 결과 사이의 관계를 탐구한다.
+              관측을 단순한 외부 행위로 보기보다,
+              구조화된 공간 안에서 하나의 상태가 선택되는 과정으로 이해할 수 있는지를 질문한다.
+            </p>
+            <p>
+              이 과정에서 측정, 결정, 결과와 같은 개념들이
+              어떤 전제를 암묵적으로 포함하고 있는지를 분석하는 데 초점을 둔다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-04">
+        <div className="container">
+          <div className="content">
+            <h2>Project 04 — Limits, Structure, and Physical Constraints</h2>
+            <p>
+              <strong>Status:</strong> 탐색적 연구 단계
+            </p>
+            <p>
+              이 프로젝트는 속도, 국소성, 제약과 같은 물리적 한계들을 다룬다.
+              이러한 한계들이 근본적인 상수이기보다는,
+              공간의 구조적 조건에서 비롯된 결과일 수 있는지를 검토한다.
+            </p>
+            <p>
+              물리적 제약을 구조의 산물로 바라볼 때,
+              기존의 한계 개념들이 어떻게 재해석될 수 있는지를 탐구한다.
+            </p>
+            <h3>Additional Research Questions</h3>
+            <p>
+              이 프로젝트의 추가 연구 질문으로는 다음과 같은 문제들이 포함된다.
+            </p>
+            <p>
+              우리가 관측하는 물리적 상한(예: 빛의 속도)은
+              물질의 이동 한계가 아니라,
+              공간 정보 구조가 갱신·재배열될 수 있는
+              연산적 제약을 반영한 결과일 수 있는가.
+            </p>
+            <p>
+              만약 공간이 정보로 채워진 구조라면,
+              그 구조를 편집하거나 재배열하는 과정에는
+              필연적인 처리 속도 한계가 존재하는가.
+            </p>
+            <p>
+              이러한 연산적 한계는
+              기존 물리 법칙에서 상수로 취급되는 값들을
+              구조적 조건으로 재해석할 수 있는 가능성을 제공하는가.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="notes">
+        <div className="container">
+          <div className="content">
+            <h2>Notes on Project Status</h2>
+            <p>
+              여기에 정리된 모든 프로젝트는 진행 중인 연구이다.
+              이 목록은 확정된 입장을 제시하기 위한 것이 아니라,
+              현재 유지되고 있는 주요 연구 방향들을 기록하기 위한 목적을 가진다.
+              연구의 진전에 따라 일부 프로젝트는 확장되거나 정리될 수 있다.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

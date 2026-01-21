@@ -1,0 +1,9 @@
+/* Hide the parent navigation for Korean pages */
+body:has(.korean-layout) > nav:first-of-type {
+  display: none;
+}
+
+/* Hide the parent main for Korean pages */
+body:has(.korean-layout) > main {
+  display: contents;
+}
