@@ -3,6 +3,15 @@ export default function Home() {
     <>
       <section id="hero">
         <div className="container">
+          <p style={{ fontStyle: 'italic', marginBottom: '2rem', textAlign: 'center' }}>
+            Humans see space.<br />
+            Dogs smell space.<br />
+            AI computes space.<br />
+            <br />
+            Same space. Different interpreters.<br />
+            <br />
+            What changes is not space itself, but the system through which it is interpreted.
+          </p>
           <h1>공간의 구조에 대한 장기 연구 프로젝트</h1>
           <p>
             이 프로젝트는 공간을 비어 있는 배경으로 보지 않는다.

@@ -5,6 +5,15 @@ export default function Home() {
     <>
       <section id="hero">
         <div className="container">
+          <p style={{ fontStyle: 'italic', marginBottom: '2rem', textAlign: 'center' }}>
+            Humans see space.<br />
+            Dogs smell space.<br />
+            AI computes space.<br />
+            <br />
+            Same space. Different interpreters.<br />
+            <br />
+            What changes is not space itself, but the system through which it is interpreted.
+          </p>
           <h1>A Long-Term Conceptual Research Project on the Structure of Space</h1>
           <p>
             This project does not treat space as an empty background or passive container.
