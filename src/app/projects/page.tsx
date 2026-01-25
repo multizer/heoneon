@@ -1,4 +1,14 @@
 import Comments from '@/components/Comments';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Projects',
+  description: 'Current research tracks: informational structure of space, motion as reconfiguration, observation and selection, and physical limits.',
+  openGraph: {
+    title: 'Projects',
+    description: 'Current research tracks: informational structure of space, motion as reconfiguration, observation and selection, and physical limits.',
+  },
+};
 
 export default function ProjectsPage() {
   return (

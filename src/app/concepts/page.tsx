@@ -1,4 +1,14 @@
 import Comments from '@/components/Comments';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Concepts',
+  description: 'Working definitions of core concepts used in this research: space, information, structure, selection, motion, and limits.',
+  openGraph: {
+    title: 'Concepts',
+    description: 'Working definitions of core concepts used in this research: space, information, structure, selection, motion, and limits.',
+  },
+};
 
 export default function ConceptsPage() {
   return (

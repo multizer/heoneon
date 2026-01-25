@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Projects',
+  description: '현재 진행 중인 연구 트랙: 공간의 정보적 구조, 구조적 재배열로서의 이동, 관측과 선택, 물리적 한계.',
+  openGraph: {
+    title: 'Projects',
+    description: '현재 진행 중인 연구 트랙: 공간의 정보적 구조, 구조적 재배열로서의 이동, 관측과 선택, 물리적 한계.',
+  },
+};
+
 export default function ProjectsPage() {
   return (
     <>

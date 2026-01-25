@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Notes',
+  description: '작업 가정, 열린 질문, 그리고 진행 중인 탐구의 연구 노트.',
+  openGraph: {
+    title: 'Notes',
+    description: '작업 가정, 열린 질문, 그리고 진행 중인 탐구의 연구 노트.',
+  },
+};
+
 export default function NotesPage() {
   return (
     <>
