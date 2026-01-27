@@ -1,4 +1,5 @@
 import Comments from '@/components/Comments';
+import ContactForm from '@/components/ContactForm';
 
 export default function AboutPage() {
   return (
@@ -104,6 +105,18 @@ export default function AboutPage() {
             <p>
               The project remains open and may be revised whenever revision is warranted.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div className="container">
+          <div className="content">
+            <h2>Contact</h2>
+            <p>
+              If you have questions, comments, or would like to discuss the research, feel free to reach out.
+            </p>
+            <ContactForm />
           </div>
         </div>
       </section>

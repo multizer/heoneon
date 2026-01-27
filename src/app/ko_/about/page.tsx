@@ -1,3 +1,5 @@
+import ContactForm from '@/components/ContactForm';
+
 export default function AboutPage() {
   return (
     <>
@@ -100,6 +102,18 @@ export default function AboutPage() {
               이 프로젝트는 열려 있으며,
               필요하다면 언제든 수정될 수 있다.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div className="container">
+          <div className="content">
+            <h2>Contact</h2>
+            <p>
+              질문이나 의견, 혹은 연구에 관해 논의하고 싶은 내용이 있다면 자유롭게 연락해 주세요.
+            </p>
+            <ContactForm />
           </div>
         </div>
       </section>
