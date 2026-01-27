@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Examples',
+  description: '개념적 프레임워크를 검토하기 위한 참고 사례: 이중슬릿 실험, 중력에 의한 빛의 휨 등.',
+  openGraph: {
+    title: 'Examples',
+    description: '개념적 프레임워크를 검토하기 위한 참고 사례: 이중슬릿 실험, 중력에 의한 빛의 휨 등.',
+  },
+};
+
 export default function ExamplesPage() {
   return (
     <>

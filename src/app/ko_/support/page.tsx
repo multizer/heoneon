@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Support',
+  description: '이 독립적인 장기 개념 연구 프로젝트를 지원하는 방법에 대한 설명.',
+  openGraph: {
+    title: 'Support',
+    description: '이 독립적인 장기 개념 연구 프로젝트를 지원하는 방법에 대한 설명.',
+  },
+};
+
 export default function SupportPage() {
   return (
     <>

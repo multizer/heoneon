@@ -1,5 +1,15 @@
 import Comments from '@/components/Comments';
 import ContactForm from '@/components/ContactForm';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'Background on the researcher, research attitude, and the independent context of this conceptual inquiry.',
+  openGraph: {
+    title: 'About',
+    description: 'Background on the researcher, research attitude, and the independent context of this conceptual inquiry.',
+  },
+};
 
 export default function AboutPage() {
   return (

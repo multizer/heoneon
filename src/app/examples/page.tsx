@@ -1,4 +1,14 @@
 import Comments from '@/components/Comments';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Examples',
+  description: 'Reference cases used to test the conceptual framework: double-slit experiment, gravitational bending, and more.',
+  openGraph: {
+    title: 'Examples',
+    description: 'Reference cases used to test the conceptual framework: double-slit experiment, gravitational bending, and more.',
+  },
+};
 
 export default function ExamplesPage() {
   return (

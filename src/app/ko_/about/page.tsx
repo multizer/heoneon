@@ -1,4 +1,14 @@
 import ContactForm from '@/components/ContactForm';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: '연구자, 연구 태도, 그리고 이 독립적인 개념 연구의 맥락에 대한 설명.',
+  openGraph: {
+    title: 'About',
+    description: '연구자, 연구 태도, 그리고 이 독립적인 개념 연구의 맥락에 대한 설명.',
+  },
+};
 
 export default function AboutPage() {
   return (

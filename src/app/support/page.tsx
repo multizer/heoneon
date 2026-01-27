@@ -1,4 +1,14 @@
 import Comments from '@/components/Comments';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Support',
+  description: 'Information about supporting this independent, long-term conceptual research project.',
+  openGraph: {
+    title: 'Support',
+    description: 'Information about supporting this independent, long-term conceptual research project.',
+  },
+};
 
 export default function SupportPage() {
   return (

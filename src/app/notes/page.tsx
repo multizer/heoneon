@@ -1,4 +1,14 @@
 import Comments from '@/components/Comments';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Notes',
+  description: 'Working assumptions, open questions, and research notes from the ongoing inquiry.',
+  openGraph: {
+    title: 'Notes',
+    description: 'Working assumptions, open questions, and research notes from the ongoing inquiry.',
+  },
+};
 
 export default function NotesPage() {
   return (

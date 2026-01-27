@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Concepts',
+  description: '이 연구에서 사용하는 핵심 개념들의 작업 정의: 공간, 정보, 구조, 선택, 이동, 한계.',
+  openGraph: {
+    title: 'Concepts',
+    description: '이 연구에서 사용하는 핵심 개념들의 작업 정의: 공간, 정보, 구조, 선택, 이동, 한계.',
+  },
+};
+
 export default function ConceptsPage() {
   return (
     <>
