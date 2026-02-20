@@ -10,7 +10,13 @@
       "Bash(git add:*)",
       "Bash(git push:*)",
       "Bash(ssh:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(timeout:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(exit 0)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }

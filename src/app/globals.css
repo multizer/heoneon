@@ -67,6 +67,7 @@ a:hover {
 }
 
 section {
+  position: relative;
   padding: 2.5rem 0;
   border-top: 1px solid #e2e8f0;
 }
@@ -76,13 +77,15 @@ section:first-of-type {
   padding-top: 3rem;
 }
 
-section:nth-child(even) {
+section:nth-of-type(even) {
+  background-color: rgba(243, 244, 246, 0.5);
+  /* light gray with 50% opacity */
+}
+
+section:nth-of-type(odd) {
   background-color: #ffffff;
 }
 
-section:nth-child(odd) {
-  background-color: #fafafa;
-}
 
 /* Navigation */
 nav {
